@@ -1,0 +1,171 @@
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <nav>
+            <div class="left">Jay's Portfolio </div>
+            <div class="rigth">
+                <ul>
+                    <li> <a href="/">Home</a></li>
+                    <li> <a href="/">About</a></li>
+                    <li> <a href="/">Skill</a></li>
+                    <li> <a href="/">Project</a></li>
+                    <li> <a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+
+
+        <section class="firstsection">
+            <div class="leftsection">
+                Hi, my name is <span class="purple">Jay</span>
+                <div>and I am passionate</div>
+                <span id="element"></span>
+
+            </div>
+            <div class="rightsection">
+                <img src="images (2).jpeg" alt="">
+            </div>
+        </section>
+
+
+
+        <section class="about" id="about">
+            <div class="about-img">
+                <img src="cute-boy-cartoon_33070-1915.avif" alt="">
+            </div>
+            <div class="about-text">
+                <h2>About <span>Me</span></h2>
+                <h4>Full Stack Developer</h4>
+                <p>Hello! I'm <span class="purple">Jay</span>, a passionate Web Developer with a keen interest in crafting
+                    dynamic and user-friendly websites.Currently, I'm honing my skills through an internship at <span
+                        class="purple">CodSoft</span>, where I'm gaining valuable hands-on experience in web
+                    development.With a foundation in HTML, CSS, and JavaScript, I strive to build websites that are not only
+                    visually appealing but also highly functional. I enjoy solving complex problems and continuously
+                    learning new technologies to stay updated in this ever-evolving field.</p>
+                <a href="#" class="btn-box">More About Me</a>
+            </div>
+        </section>
+
+        <h1 class="sub-title"> My <span class="purple">Skills</span></h1>
+        <section><div class="container12">
+            <div>
+                <h1 class="heading1">TECHNICAL Skills</h1>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>REACT</li>
+
+                </ul>
+            </div>
+        </div>
+
+            <div class="container12">
+                <div>
+                    <h1 class="heading2">Profecional Skills</h1>
+                    <ul>
+                        <li>creativity</li>
+                        <li>communication</li>
+                        <li>Problem solving</li>
+                        <li>Team work</li>
+
+                    </ul>
+                </div>
+            </div>
+
+
+
+        </section>
+        <h1 class="sub-title"> My <span class="purple">Project</span></h1>
+        <section class="projects">
+            <div class="card-container">
+                <div class="card">
+                    <img src="th.jpeg" alt="Project 1">
+                    <div class="card-content">
+                        <h2>To-Do List App</h2>
+                        <p>A basic to-do list application that allows users to add, delete, and mark tasks as completed. Developed with HTML, CSS, and JavaScript.</p>
+                        <a href="#" class="btn-box">Learn More</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="th (1).jpeg" alt="Project 1">
+                    <div class="card-content">
+                        <h2>Quiz App</h2>
+                        <p> A simple quiz game with multiple-choice questions. Users can select answers and receive a score at the end. Developed using HTML, CSS, and JavaScript.</p>
+                        <a href="#" class="btn-box">Learn More</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="0eb21d294f7c237e45df781dd7ad1b98.png" alt="Project 1">
+                    <div class="card-content">
+                        <h2>Landing Page</h2>
+                        <p> A single-page website designed to promote a product or service. Built with HTML and CSS, focusing on clean design and layout.</p>
+                        <a href="#" class="btn-box">Learn More</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images (2).jpeg" alt="Project 1">
+                    <div class="card-content">
+                        <h2>Netflix Clone</h2>
+                        <p>A front-end replica of the popular streaming service Netflix. This project demonstrates my ability to recreate a complex user interface using HTML, CSS, and JavaScript.</p>
+                        <a href="#" class="btn-box">Learn More</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images (2).jpeg" alt="Project 1">
+                    <div class="card-content">
+                        <h2>Spotify Clone</h2>
+                        <p>A front-end clone of the popular music streaming service Spotify. This project showcases my ability to recreate a complex, responsive user interface using HTML, CSS, and JavaScript.</p>
+                        <a href="#" class="btn-box">Learn More</a>
+                    </div>
+                </div>
+                </div>
+        </section>
+
+        <h1 class="sub-title">Contact <span class="purple">me</span></h1>
+    
+        
+            <section class="contact">
+            
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn-submit">Send Message</button>
+                </form>
+            </section>
+
+
+        <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+        <script>
+            var typed = new Typed('#element', {
+                strings: ['Web Developer', 'Web Designer.'],
+                typeSpeed: 50,
+            });
+        </script>
+
+    </body>
+
+    </html>
